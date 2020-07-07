@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:background="#ffffff"
+
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/r1"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="100dp">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@mipmap/ic_banner"
+
+            />
+    </RelativeLayout>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/r1"
+    android:id="@+id/r2"
+    android:layout_marginBottom="210dp"
+    >
+    <Button
+        android:layout_width="220dp"
+        android:layout_height='wrap_content'
+        android:layout_centerHorizontal="true"
+        android:text="LEARN"
+        android:id="@+id/button1"
+        />
+    <Button
+        android:layout_width="220dp"
+        android:layout_height='50dp'
+       android:layout_centerHorizontal="true"
+        android:layout_below="@+id/button1"
+        android:text="PRACITICE"
+        android:id="@+id/button2"
+        />
+    <Button
+        android:layout_width="220dp"
+        android:layout_height='50dp'
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/button2"
+        android:text="TEST"
+        android:id="@+id/button3"
+
+        />
+    <Button
+        android:layout_width="220dp"
+        android:layout_height='50dp'
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/button3"
+        android:text="Back"
+        android:id="@+id/btn_back"
+
+        />
+
+
+</RelativeLayout>
+
+
+
+
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/r2"
+            android:id="@+id/image1"
+            android:background="@mipmap/ic_launcher2"
+            android:layout_marginLeft="400dp"
+            />
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@+id/image1"
+            android:layout_alignTop="@+id/image1"
+            android:background="@mipmap/ic_launcher4"/>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@+id/image2"
+            android:layout_alignTop="@+id/image2"
+            android:background="@mipmap/ic_launcher3"/>
+
+
+
+
+
+</RelativeLayout>
+
